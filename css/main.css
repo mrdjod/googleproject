@@ -175,3 +175,47 @@ a.button:hover {
 	letter-spacing:0.1px;
 	font-size:14px;
 }
+@media (max-width:320px){ /*This many pixels or less, is what it will take up*/
+	.searchBox input{
+		width:80%;
+	}
+}
+@media (max-width:320px){
+	.left{
+		padding-left:40px;
+	}
+}
+@media (max-width:320px){
+	.right{
+		padding-right:55px;
+	}
+}
+@media (max-width:320px){
+	.searchBox img{
+		width:50%;
+	}
+}
+@media (max-width:320px){
+	.searchButton button{
+		display:none;
+	}
+}
+@media (max-width:320px){
+	.searchBox{
+		margin-top: 35px}
+}
+@media (max-width:320px){
+	.topNav li span.shareButton{
+		display:none;
+	}
+}
+@media (max-width:320px){
+	.topNav li img{
+		display:none;
+	}
+}
+@media (max-width:320px){
+	.topNav{
+		padding-left:45px;
+	}
+}
